@@ -23,5 +23,5 @@ void ThirdNumber(int num1)
     }
 }
 WriteLine("Введите число: ");
-int a = Convert.ToInt32(ReadLine()!);
-ThirdNumber(a);
+int num = Convert.ToInt32(ReadLine()!);
+ThirdNumber(num);
